@@ -11,3 +11,6 @@ To run the program, make sure you have the ``os``, ``platform``, ``sys``, ``nump
 It is highly encouraged to fork and modify this program to implement multiprocessing, multithreading, and in general speed it up. Python is a slow language, and the majority of this code comes from a time where I was even more of a novice than I currently am in Python and C++. 
 
 This package will work on Windows, but you may need to change some file calling paths in ``RayTracer.py``. One set of videos is in the provided folder.
+
+Example output: Kerr Spacetime w/ only visible components (heavily stylized)
+<img src="Untitled.png">
