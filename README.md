@@ -1,6 +1,6 @@
 # MoviTon
 
-This is the worknig version of a geodesic raytracer for black holes I wrote all the way back in 2018 - back then, I tried to emulate rantonels' STARLESS, but I kept working on it on-and-off and produced this result.
+This is the working version of a geodesic raytracer for black holes I wrote all the way back in 2018 - back then, I tried to emulate rantonels' STARLESS, but I kept working on it on-and-off and produced this result.
 
 MoviTon raytraces photon paths in Kerr spacetime, and can produce 2D and 3D animations of Kerr black holes. it does this by splitting photon trajectories into 6 first-order differential equations which are then solved with the RK4 method. ```Matplotlib``` is used to generate the output frames, which are then saved individually. ```moviepy``` then combines these frames and converts them into an mp4 video. Axes and their titles can be toggled on and off by rearranging the positions of the ``setVisible()`` function lines in ``RayTracer.py``'s ``image()`` function.
 
